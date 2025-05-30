@@ -10,15 +10,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 @Controller
-public class RefreshTokenController
-{
+public class RefreshTokenController {
 
-    private final AuthenticationManager authenticationManager;
-    private RefreshTokenService refreshTokenService;
+    private final RefreshTokenService refreshTokenService;
     private final JwtUtil jwtUtil;
 
-    public RefreshTokenController(AuthenticationManager authenticationManager, RefreshTokenService refreshTokenService, JwtUtil jwtUtil){
-        this.authenticationManager=authenticationManager;
+    public RefreshTokenController(RefreshTokenService refreshTokenService, JwtUtil jwtUtil){
         this.jwtUtil=jwtUtil;
         this.refreshTokenService=refreshTokenService;
     }
