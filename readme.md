@@ -2,6 +2,8 @@
 
 This is the backend service for the HealthCare system, implemented as a **Spring Boot monolithic application**. It powers all core business logic, APIs, and data processing for user, doctor, and admin functionalities.
 
+> 💡 You can also check out [HealthCareMicroservices (Microservice Version)](https://github.com/amanyara21/HealthCareMicroServices) for a modular and production-ready implementation.
+
 ---
 
 ## 🏗️ Technologies Used
